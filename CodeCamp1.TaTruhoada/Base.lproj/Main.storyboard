@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grassland1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="i0I-8H-2EA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Gbt-ma-6ld"/>
+                                    <constraint firstAttribute="height" constant="568" id="O8T-5y-CfB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83529418706893921" green="0.97647064924240112" blue="0.93333339691162109" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="i0I-8H-2EA" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Ty3-qK-QW5"/>
+                            <constraint firstAttribute="trailing" secondItem="i0I-8H-2EA" secondAttribute="trailing" id="lfc-3T-Qg7"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="i0I-8H-2EA" secondAttribute="bottom" id="p59-aT-Yi4"/>
+                            <constraint firstItem="i0I-8H-2EA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="v9F-5e-Ukj"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257" y="259"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="grassland1.jpg" width="1680" height="1050"/>
+    </resources>
+</document>
